@@ -1,0 +1,15 @@
+export const weatherIcons = {
+  'clear-day': './../public/images/icons/clear-day.svg',
+  'clear-night': './../public/images/icons/clear-night.svg',
+  'partly-cloudy-day': './../public/images/icons/cloudy-1-day.svg',
+  'partly-cloudy-night': './../public/images/icons/cloudy-1-night.svg',
+  cloudy: './../public/images/icons/cloudy.svg',
+  rain: './../public/images/icons/rain.svg',
+  snow: './../public/images/icons/snow.svg',
+  sleet: './../public/images/icons/sleet.svg',
+  wind: './../public/images/icons/wind.svg',
+  fog: './../public/images/icons/fog.svg',
+  hail: './../public/images/icons/hail.svg',
+  thunderstorm: './../public/images/icons/thunderstorm.svg',
+  tornado: './../public/images/icons/tornado.svg',
+}
