@@ -1,0 +1,14 @@
+#day-cards-carousel {
+    width: 1200px;
+    height: 208px;
+    background-color: #1E1E1E;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    grid-row-start: 3;
+    box-sizing: border-box;
+    padding: 0px 24px;
+    overflow: hidden;
+}

@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
-    background-color: #f4f0fd;
+    background-color: #0F0F0F;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+
 }
 #app{
-    width: 1000px;
+    margin-top: 24px;
+    width: 1200px;
+    height: 100%;
+    gap: 24px;
+    display: grid;
+    grid-template-rows: 56px 390px;
+    grid-template-columns: 510px 666px;
 }

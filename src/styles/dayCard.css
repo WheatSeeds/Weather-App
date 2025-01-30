@@ -1,0 +1,17 @@
+.day-card{
+    height: 160px;
+    width: 100px;
+    background-color: #272727;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.day-card-img{
+    width: 100px;
+}

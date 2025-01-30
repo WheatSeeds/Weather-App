@@ -1,4 +1,50 @@
 #current-day-info{
-    display: flex;
     flex-direction: column;
+    height: 390px;
+    width: 510px;
+    background-color: #1E1E1E;
+    border-radius: 18px;
+    grid-row-start: 2;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+}
+#location{
+    height: 50px;
+    width: max-content;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+    border-radius: 16px;
+}
+#current-day-weather-image{
+    position: absolute;
+    height: 500px;
+}
+#location-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+#current-day-title{
+    font-size: 36px;
+    font-weight: 500;
+}
+#current-day-date{
+    font-size: 16px;
+    font-weight: 300;
+}
+#current-day-temp{
+    font-size: 40px;
+    font-weight: 500;
+}
+#current-day-weather{
+    font-size: 20px;
+    font-weight: 500;
+}
+#current-day-feels{
+    font-size: 16px;
+    font-weight: 400;
 }
