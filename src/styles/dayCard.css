@@ -14,4 +14,10 @@
 }
 .day-card-img{
     width: 100px;
+    height: auto;
+}
+.current-card{
+    background-color: #c1c1c1;
+    color: black;
+    transition-duration: 0.5s;
 }

@@ -1,11 +1,15 @@
-import {createHtmlElement} from "../helpers.js";
 import {dayCard} from "./dayCard.js";
 
 export function dayCardsCarousel(daysData){
-    const dayCardsCarousel = createHtmlElement("div", 'day-cards-carousel', null);
-    daysData.forEach(day => {
-        dayCardsCarousel.append(dayCard(day))
+    const dayCardsCarousel = document.getElementById('day-cards-carousel');
+    daysData.forEach((day, index) => {
+        const card = dayCard(day);
+        if (index === 0) {
+            card.classList.add('current-card');
+        }
+        dayCardsCarousel.appendChild(card);
     })
+
 
 
     return dayCardsCarousel;
