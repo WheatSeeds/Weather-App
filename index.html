@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-DYGSvYKW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-kEQLUoc6.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="search-bar">
+        <img id="search-bar-image" src="../../public/images/Search.svg" alt="">
+        <input id="search-bar-input" type="text" placeholder="Search your location">
+      </div>
+
+
+
+      <div id="current-day-info">
+        <div id="location">
+          <img style="height: 24px; width: 24px" src="../../public/images/Location.svg" alt="">
+          <span id="location-title"></span>
+        </div>
+        <img src="" alt="" id="current-day-weather-image">
+          <span id="current-day-title"></span>
+          <span id="current-day-date"></span>
+          <span id="current-day-temp"></span>
+          <span id="current-day-weather"></span>
+          <span id="current-day-feels"></span>
+
+      </div>
+
+
+
+      <div id="current-day-highlight">
+        <span id="highlight-title">Today's Highlight</span>
+        <div id="current-day-wind" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/wind.svg" alt="">
+          <span class="highlight-title">Wind Status</span>
+          <span class="highlight-content"></span>
+        </div>
+        <div id="current-day-humidity" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/Humidity.svg" alt="">
+          <span class="highlight-title">Humidity</span>
+          <span class="highlight-content"></span>
+        </div>
+        <div id="current-day-sunrise" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/Sunrise.svg" alt="">
+          <span class="highlight-title">Sunrise</span>
+          <span class="highlight-content"></span>
+        </div>
+        <div id="current-day-uv" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/UV.svg" alt="">
+          <span class="highlight-title">UV Index</span>
+          <span class="highlight-content"></span>
+        </div>
+        <div id="current-day-visibility" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/Visibility.svg" alt="">
+          <span class="highlight-title">Visibility</span>
+          <span class="highlight-content"></span>
+        </div>
+        <div id="current-day-sunset" class="highlight-content-block">
+          <img src="../../public/images/highlight-icons/Sunset.svg" alt="">
+          <span class="highlight-title">Sunset</span>
+          <span class="highlight-content"></span>
+        </div>
+      </div>
+      <div id="day-cards-carousel" class="dragscroll"></div>
+    </div>
+  </body>
+</html>
