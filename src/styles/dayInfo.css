@@ -1,13 +1,21 @@
 #current-day-info{
+    display: flex;
     flex-direction: column;
-    height: 390px;
-    width: 510px;
+    max-height: 390px;
+    max-width: 510px;
     background-color: #1E1E1E;
     border-radius: 18px;
     grid-row-start: 2;
     color: white;
     font-family: 'Inter', sans-serif;
-    display: grid;
+    gap: 40px;
+    padding: 24px 24px;
+    flex: 0 0 auto;
+    position: relative;
+}
+.current-day-text-content-block{
+    display: flex;
+    flex-direction: column;
 }
 #location{
     height: 50px;
@@ -23,6 +31,8 @@
 #current-day-weather-image{
     position: absolute;
     height: 500px;
+    top: -50px;
+    left: 75px;
 }
 #location-title{
     font-size: 18px;

@@ -1,3 +1,5 @@
+import {getDayName} from "../helpers.js";
+
 export function updateCurrentDayHighlight(dayData){
     const details = [
         {id: 'current-day-wind', content: `${(dayData.windspeed * 1.609).toFixed(1)} km/h`},
@@ -12,4 +14,6 @@ export function updateCurrentDayHighlight(dayData){
         const content = element.querySelector('.highlight-content');
         content.innerHTML = detail.content;
     })
+    const highlightTitle = document.getElementById('highlight-title');
+    highlightTitle.innerHTML = `${getDayName(dayData.datetime)}'s Highlight`
 }

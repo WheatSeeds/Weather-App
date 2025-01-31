@@ -6,7 +6,7 @@
     border-radius: 18px;
     display: flex;
     align-items: center;
-    outline: none
+    outline: none;
 }
 #search-bar-input, #search-bar-input:focus{
     background-color: rgb(0,0,0,0);

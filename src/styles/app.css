@@ -16,3 +16,6 @@ body{
     grid-template-rows: 56px 390px;
     grid-template-columns: 510px 666px;
 }
+img{
+    pointer-events: none;
+}
